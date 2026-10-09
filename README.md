@@ -94,3 +94,7 @@ positivity-preserving $k$ operator and fall back to Newton–GMRES if Picard doe
 ## Citation
 
 If you use this code or data, please cite the paper above (citation to be updated on publication).
+
+## License
+
+The code is released under the MIT License (see `LICENSE`).
