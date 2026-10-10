@@ -1,7 +1,7 @@
 # Bluff-body turbulence closures trained by a PINN
 
 Code and data for *Generalizable turbulence closures across bluff-body shapes by PINN-based
-solver-agnostic training* (Journal of Fluid Mechanics, under review).
+solver-agnostic training* ([arXiv:2607.04491](https://arxiv.org/abs/2607.04491); Journal of Fluid Mechanics, under review).
 
 Closures for the steady two-dimensional RANS equations are identified with a physics-informed
 neural network (PINN). Training uses only the RANS residual and observations, with no flow solver
@@ -93,7 +93,24 @@ positivity-preserving $k$ operator and fall back to Newton–GMRES if Picard doe
 
 ## Citation
 
-If you use this code or data, please cite the paper above (citation to be updated on publication).
+If you use this code or data, please cite
+
+> Z. Zhang, T. Käufer, L. Ronglan, M. S. Triantafyllou and G. E. Karniadakis,
+> Generalizable turbulence closures across bluff-body shapes by PINN-based solver-agnostic training,
+> arXiv:2607.04491 (2026). https://arxiv.org/abs/2607.04491
+
+```bibtex
+@article{zhang2026generalizable,
+  title         = {Generalizable turbulence closures across bluff-body shapes by {PINN}-based solver-agnostic training},
+  author        = {Zhang, Zhen and K{\"a}ufer, Theo and Ronglan, Louise and Triantafyllou, Michael S. and Karniadakis, George Em},
+  journal       = {arXiv preprint arXiv:2607.04491},
+  year          = {2026},
+  eprint        = {2607.04491},
+  archivePrefix = {arXiv},
+  primaryClass  = {physics.flu-dyn},
+  url           = {https://arxiv.org/abs/2607.04491}
+}
+```
 
 ## License
 
